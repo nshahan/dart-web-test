@@ -6,77 +6,247 @@ PUB_PACKAGE_NAME = "example"
 # Generated automatically for package:example|pubspec.yaml
 def bazelify():
     native.new_local_repository(
+        name = "analyzer",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/analyzer-0.29.1/",
+        build_file = ".bazelify/analyzer.BUILD",
+    )
+    native.new_local_repository(
+        name = "archive",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/archive-1.0.27/",
+        build_file = ".bazelify/archive.BUILD",
+    )
+    native.new_local_repository(
         name = "args",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/args-0.13.7/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/args-0.13.7/",
         build_file = ".bazelify/args.BUILD",
     )
     native.new_local_repository(
         name = "async",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/async-1.11.3/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/async-1.11.3/",
         build_file = ".bazelify/async.BUILD",
     )
     native.new_local_repository(
         name = "barback",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/barback-0.15.2+9/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/barback-0.15.2+9/",
         build_file = ".bazelify/barback.BUILD",
     )
     native.new_local_repository(
+        name = "boolean_selector",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.2/",
+        build_file = ".bazelify/boolean_selector.BUILD",
+    )
+    native.new_local_repository(
         name = "browser",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/browser-0.10.0+2/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/browser-0.10.0+2/",
         build_file = ".bazelify/browser.BUILD",
     )
     native.new_local_repository(
+        name = "charcode",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.1/",
+        build_file = ".bazelify/charcode.BUILD",
+    )
+    native.new_local_repository(
         name = "collection",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/collection-1.9.1/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/collection-1.9.1/",
         build_file = ".bazelify/collection.BUILD",
     )
     native.new_local_repository(
+        name = "convert",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/convert-2.0.1/",
+        build_file = ".bazelify/convert.BUILD",
+    )
+    native.new_local_repository(
+        name = "crypto",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/crypto-2.0.1/",
+        build_file = ".bazelify/crypto.BUILD",
+    )
+    native.new_local_repository(
         name = "csslib",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/csslib-0.13.2+2/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/csslib-0.13.2+2/",
         build_file = ".bazelify/csslib.BUILD",
     )
     native.new_local_repository(
         name = "dart_to_js_script_rewriter",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/dart_to_js_script_rewriter-1.0.2/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/dart_to_js_script_rewriter-1.0.2/",
         build_file = ".bazelify/dart_to_js_script_rewriter.BUILD",
     )
     native.new_local_repository(
+        name = "glob",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/glob-1.1.3/",
+        build_file = ".bazelify/glob.BUILD",
+    )
+    native.new_local_repository(
         name = "html",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/html-0.13.0/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/html-0.13.0/",
         build_file = ".bazelify/html.BUILD",
     )
     native.new_local_repository(
+        name = "http",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/http-0.11.3+9/",
+        build_file = ".bazelify/http.BUILD",
+    )
+    native.new_local_repository(
+        name = "http_multi_server",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/http_multi_server-2.0.3/",
+        build_file = ".bazelify/http_multi_server.BUILD",
+    )
+    native.new_local_repository(
+        name = "http_parser",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.0/",
+        build_file = ".bazelify/http_parser.BUILD",
+    )
+    native.new_local_repository(
+        name = "isolate",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/isolate-0.2.3/",
+        build_file = ".bazelify/isolate.BUILD",
+    )
+    native.new_local_repository(
         name = "logging",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/logging-0.11.3+1/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/logging-0.11.3+1/",
         build_file = ".bazelify/logging.BUILD",
     )
     native.new_local_repository(
+        name = "matcher",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.0+2/",
+        build_file = ".bazelify/matcher.BUILD",
+    )
+    native.new_local_repository(
+        name = "meta",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/meta-1.0.4/",
+        build_file = ".bazelify/meta.BUILD",
+    )
+    native.new_local_repository(
+        name = "mime",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/mime-0.9.3/",
+        build_file = ".bazelify/mime.BUILD",
+    )
+    native.new_local_repository(
+        name = "package_config",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/package_config-1.0.0/",
+        build_file = ".bazelify/package_config.BUILD",
+    )
+    native.new_local_repository(
+        name = "package_resolver",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/package_resolver-1.0.2/",
+        build_file = ".bazelify/package_resolver.BUILD",
+    )
+    native.new_local_repository(
         name = "path",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/path-1.4.0/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/path-1.4.0/",
         build_file = ".bazelify/path.BUILD",
     )
     native.new_local_repository(
+        name = "plugin",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/plugin-0.2.0/",
+        build_file = ".bazelify/plugin.BUILD",
+    )
+    native.new_local_repository(
         name = "pool",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/pool-1.2.4/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/pool-1.2.4/",
         build_file = ".bazelify/pool.BUILD",
     )
     native.new_local_repository(
+        name = "pub_semver",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/pub_semver-1.3.2/",
+        build_file = ".bazelify/pub_semver.BUILD",
+    )
+    native.new_local_repository(
+        name = "quiver",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/quiver-0.24.0/",
+        build_file = ".bazelify/quiver.BUILD",
+    )
+    native.new_local_repository(
+        name = "shelf",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/shelf-0.6.7+2/",
+        build_file = ".bazelify/shelf.BUILD",
+    )
+    native.new_local_repository(
+        name = "shelf_packages_handler",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-1.0.0/",
+        build_file = ".bazelify/shelf_packages_handler.BUILD",
+    )
+    native.new_local_repository(
+        name = "shelf_static",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/shelf_static-0.2.4/",
+        build_file = ".bazelify/shelf_static.BUILD",
+    )
+    native.new_local_repository(
+        name = "shelf_web_socket",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/shelf_web_socket-0.2.1/",
+        build_file = ".bazelify/shelf_web_socket.BUILD",
+    )
+    native.new_local_repository(
+        name = "source_map_stack_trace",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-1.1.3/",
+        build_file = ".bazelify/source_map_stack_trace.BUILD",
+    )
+    native.new_local_repository(
+        name = "source_maps",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.1+4/",
+        build_file = ".bazelify/source_maps.BUILD",
+    )
+    native.new_local_repository(
         name = "source_span",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/source_span-1.3.0/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/source_span-1.3.0/",
         build_file = ".bazelify/source_span.BUILD",
     )
     native.new_local_repository(
         name = "stack_trace",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.7.0/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.7.0/",
         build_file = ".bazelify/stack_trace.BUILD",
     )
     native.new_local_repository(
+        name = "stream_channel",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/stream_channel-1.5.0/",
+        build_file = ".bazelify/stream_channel.BUILD",
+    )
+    native.new_local_repository(
+        name = "string_scanner",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.1/",
+        build_file = ".bazelify/string_scanner.BUILD",
+    )
+    native.new_local_repository(
+        name = "test",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/test-0.12.17+2/",
+        build_file = ".bazelify/test.BUILD",
+    )
+    native.new_local_repository(
+        name = "typed_data",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.3/",
+        build_file = ".bazelify/typed_data.BUILD",
+    )
+    native.new_local_repository(
+        name = "unittest",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/unittest-0.11.6+4/",
+        build_file = ".bazelify/unittest.BUILD",
+    )
+    native.new_local_repository(
         name = "utf",
-        path = "/usr/local/google/home/nshahan/.pub-cache/hosted/pub.dartlang.org/utf-0.9.0+3/",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/utf-0.9.0+3/",
         build_file = ".bazelify/utf.BUILD",
     )
     native.new_local_repository(
+        name = "watcher",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/watcher-0.9.7+3/",
+        build_file = ".bazelify/watcher.BUILD",
+    )
+    native.new_local_repository(
+        name = "web_socket_channel",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-1.0.4/",
+        build_file = ".bazelify/web_socket_channel.BUILD",
+    )
+    native.new_local_repository(
+        name = "webdriver",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/webdriver-1.2.1/",
+        build_file = ".bazelify/webdriver.BUILD",
+    )
+    native.new_local_repository(
+        name = "yaml",
+        path = "/Users/nshahan/.pub-cache/hosted/pub.dartlang.org/yaml-2.1.12/",
+        build_file = ".bazelify/yaml.BUILD",
+    )
+    native.new_local_repository(
         name = "example",
-        path = "/usr/local/google/home/nshahan/code/dart-web-test/example/",
+        path = "/Users/nshahan/code/dart-web-test/example/",
         build_file = ".bazelify/example.BUILD",
     )
